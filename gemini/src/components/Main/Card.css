@@ -1,0 +1,54 @@
+.cardcss{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+button{
+    display: flex;
+    flex-direction: column;
+    background-color: #232526;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    height: 200px;
+    width: 200px;
+    margin-top: 70px;
+    margin-left: 30px;
+    padding: 15px;
+    text-align: left;
+    font-size: 17px;
+    align-items:flex-start;
+    font-family: Outfit;
+    text-wrap: wrap;
+}
+
+button p{
+    width: 140px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.cardcss button .free-rider{
+    display: flex;
+    align-items: flex-end;
+    height: 350px;
+}
+
+.free-rider img{
+    position: relative;
+  left: 150px;
+  height: 25px; /* Adjusted to better visualize the border radius effect */
+  border-radius: 50%; /* Makes the element circular */
+  border-style: dashed;
+  border-width: 5px;
+  border-color: #e4e5e5;
+  
+  /* border: 10px solid darkblue; Border color and width */
+  filter: invert(100%); /* Inverts the colors of the element */
+  background-color:#e4e5e5; /* Fill color inside the border */
+  display: flex; /* Optional: center content if needed */
+  align-items: center; /* Optional: vertically center content */
+  justify-content: center;
+}

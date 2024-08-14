@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#root{
+  min-height: 100vh;
+  display: flex;
+  /* animation: lefttoright 1.5s; */
+  background-color:#58585800
+}
+
+@keyframes lefttoright {
+  0% {
+    opacity: 0;
+    transform: translateX(-30px) scale(0.8) ;
+     
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px) scale(1) ;
+     
+  }
+
+  
+}
+
+
+@keyframes lefttorightsidebar {
+  0% {
+    opacity: 0;
+    transform: translateX(0px) scale(0.8) ;
+     
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px) scale(1) ;
+     
+  }
+
+  
+}
